@@ -1,0 +1,90 @@
+        .titulo1 {
+            font-weight: bolder;
+        }
+        
+        p {
+            font-size: 20px;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            color: #fff;
+            padding: 20px 0px;
+            font-size: 20px;
+            background-color: #419f7d;
+        }
+
+        .banner1 {
+            background-image: url("../img/bannerLogin.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .container-fluid1 {
+            padding-top: 210px;
+            padding-bottom: 200px;
+        }
+
+        .cursor {
+            cursor: pointer;
+        }
+        
+        .animacion2 {
+            width: 70%;
+        }
+        
+        .usuario {
+            width: 70%;
+        }
+        
+        a {
+            font-weight: bold;
+            color: #CDCA28;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: #CDCA28;
+            text-decoration: none;
+        }
+        
+        input:checked {
+            background-color: #CDCA28 !important;
+        }
+        
+        input,
+        select {
+            cursor: pointer;
+        }
+        
+        .error {
+            border: red solid 1px;
+        }
+        
+        .btninicio {
+            color: #fff;
+            background-color: #CDCA28 !important;
+            font-size: 20px;
+            width: 100%;
+        }
+        
+        #forgot-pass {
+            font-weight: bold;
+            text-align: end;
+            font-size: 12px;
+        }
+        
+        @media (max-width:575px) {
+            .animacion1 {
+                width: 80% !important;
+                margin: 0 auto !important;
+                display: block !important;
+            }
+            .animacion2 {
+                width: 100% !important;
+            }
+        }
